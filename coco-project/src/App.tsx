@@ -2,7 +2,6 @@ import React, {useState, useEffect, useCallback} from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import { gsap } from 'gsap';
-import { ScrollSmoother } from 'gsap/all';
 import { ScrollToPlugin } from 'gsap/all';
 import MainPage from './components/MainPage.tsx/MainPage';
 

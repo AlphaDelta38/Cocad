@@ -15,7 +15,7 @@ return(
     <div className={cl.SecondSection__Container}>
 
 
-        2
+        
 
 
 

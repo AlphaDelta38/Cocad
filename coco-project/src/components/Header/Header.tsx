@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import cl from "./Header.module.css"
 import './fonts/iter/Inter-Medium.ttf';
 import JsonFile from "./icons8-меню.json"
-import Lottie, {AnimationItem} from "lottie-web";
+
 
 
 const Header: React.FC = () => {
