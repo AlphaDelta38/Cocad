@@ -1,0 +1,612 @@
+*{
+    box-sizing: border-box;
+}
+
+.SectionContainer {
+    width: 100%;
+    height: 792px;
+    display: flex;
+ 
+}
+
+
+@media (max-width: 1000px) {
+    
+.SectionContainer {
+    width: 100%;
+    height: 792px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+}
+
+
+
+@media (min-width: 1400px) {
+    .TextContent {
+        width: 50%;
+        height: 100%;
+        padding-top: 87px;
+        padding-left: 120px;
+        padding-bottom: 141px;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        transition: 1s ease;
+        opacity: 1;
+        
+    
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+    
+    .TextContent {
+        width: 50%;
+        height: 100%;
+        padding-top: 87px;
+        padding-left: 20px;
+        padding-bottom: 141px;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        transition: 1s ease;
+        opacity: 1;
+        
+        
+    
+    }
+  }
+
+.TextContent2{
+
+    width: 50%;
+    height: 100%;
+    padding-top: 87px;
+    padding-left: 120px;
+    padding-bottom: 141px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    transition: 1s ease;
+    opacity: 0;
+    margin-left: -200px;
+
+}
+
+
+
+.TextContnet__Name {
+
+    font-weight: 700;
+    color: rgba(29, 30, 37, 1);
+    font-size: 37px;
+    display: flex;
+    max-width: 740px;
+    font-family: 'Inter';
+    z-index: 2;
+    flex-wrap: nowrap;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('DancingScript'),
+    url('./fonts/iter/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+
+
+.TextContent__Discription {
+
+    margin-top: 114px;
+    display: flex;
+    max-height: 514px;
+    align-items: flex-start;
+
+
+
+
+
+}
+
+
+.Discription__Text{
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 42px;
+    letter-spacing: -1;
+    font-family: 'Inter';
+    color: rgba(29, 30, 37, 1);
+    z-index: 2;
+
+
+}
+
+.fordis {
+
+    width: 76px;
+    background-color: black;
+    height: 1px;
+    margin-top: 20px;
+    margin-right: 27px;
+
+
+}
+
+
+.style__eclipse {
+
+
+    position: absolute;
+    width: 551px;
+    height: 551px;
+    opacity: 16%;
+    background-color: rgba(250, 117, 21, 1);
+    margin-left: -51px;
+    margin-top: -90px;
+    border: none;
+    filter: blur(110px);
+    z-index: 1;
+    border-radius: 50%;
+
+}
+
+
+
+.TextContent__Input{
+
+    max-width: 471px;
+    height: 56px;
+    display: flex;
+    margin-top: 69px;
+    align-items: center;
+    margin-left: 0px;
+    transition: 1s ease;
+    opacity: 1;
+
+}
+
+.TextContent__Input2{
+
+    max-width: 471px;
+    height: 56px;
+    display: flex;
+    margin-top: 69px;
+    align-items: center;
+    margin-left: -300px;
+    transition: 1s ease;
+    opacity: 0;
+
+
+}
+
+
+.input__container{
+    width: 100%;
+    max-width: 280px;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.input{
+    background: none;
+    font-family: 'Inter';
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+
+.input:focus{
+    background: none;
+    font-family: 'Inter';
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    outline: none;
+    
+}
+
+.btn{
+
+    border: none;
+    background: none;
+    font-weight: 700;
+    font-family: 'Inter';
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(29, 30, 37, 1);
+    gap: 8px;
+    padding: 16px, 32px, 16px, 32px;
+    width: 175px;
+    height: 56px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+.btn:hover{
+
+    color: gray;
+    
+}
+
+
+
+.GraphyContent{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding-top: 120px;
+
+
+
+}
+
+
+
+.Content__container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: 1s ease;
+    margin-left: 0px;
+}
+
+.Content__container2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    margin-left: 400px;
+
+
+}
+
+.Graphic{
+
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+
+}
+
+
+@media (min-width: 1400px){
+
+    .Graphic{
+
+        width: 600px;
+        height: 500px;
+        border-radius: 8px;
+        margin-left: 80px;
+    
+    }
+
+}
+
+
+.Graphic2{
+
+    position: absolute;
+    height: 400px;
+    width: 356px;
+    margin-left: 320px;
+    margin-top: -80px;
+    
+}
+
+
+
+
+
+.Sales{
+
+    width: 600px;
+    height: 200px;
+    margin-bottom: 100px;
+    position: absolute;
+    margin-top: 400px;
+}
+
+
+@media (min-width: 1400px){
+
+    .Sales{
+
+        width: 600px;
+        height: 200px;
+        margin-left: 80px;
+        margin-bottom: 100px;
+        position: absolute;
+        margin-top: 400px;
+    }
+
+}
+
+@media (max-width: 1250px){
+
+    .GraphyContent{
+        position: relative;
+        width: 50%;
+        height: 100%;
+        padding-top: 120px;
+    
+    
+    
+    }
+    
+
+
+    .Sales{
+
+        width: 400px;
+        height: 200px;
+        margin-bottom: 100px;
+        position: absolute;
+        margin-top: 400px;
+        bottom: 80px;
+    }
+
+    .Graphic2{
+
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        margin-left: 220px;
+        margin-top: -80px;
+        
+
+    }
+    .Graphic{
+
+        width: 400px;
+        height: 400px;
+        border-radius: 8px;
+    
+    }
+
+
+
+    .TextContnet__Name {
+
+        font-weight: 700;
+        color: rgba(29, 30, 37, 1);
+        font-size: 28px;
+        display: flex;
+        max-width: 740px;
+        font-family: 'Inter';
+        z-index: 2;
+        flex-wrap: nowrap;
+    
+    }
+    
+
+
+    .Discription__Text{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 42px;
+        letter-spacing: -1;
+        font-family: 'Inter';
+        color: rgba(29, 30, 37, 1);
+        z-index: 2;
+    
+    
+    }
+
+
+
+}
+
+@media (min-width: 1400px){
+
+    .Graphic2{
+        
+        position: absolute;
+        height: 400px;
+        width: 356px;
+        margin-left: 400px;
+        margin-top: -80px;
+        
+    }
+
+}
+
+.GraphyContent__1000 {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+
+
+}
+
+
+.TextContent__1000 {
+    width: 100%;
+    height: 100%;
+    padding-top: 87px;
+    padding-left: 20px;
+    padding-bottom: 141px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    transition: 1s ease;
+    opacity: 1;
+    margin-left: 0px;
+
+
+}
+
+
+
+
+
+.TextContent2_1000 {
+    width: 100%;
+    height: 100%;
+    padding-top: 87px;
+    padding-left: 20px;
+    padding-bottom: 141px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    transition: 1s ease;
+    opacity: 0;
+    margin-left: 50px;
+
+}
+
+
+
+
+
+
+@media (max-width:1000px){
+
+    .Content__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        transition: 1s ease;
+        margin-left: 0px;
+    }
+    
+
+
+    .TextContnet__Name {
+
+        font-weight: 700;
+        color: rgba(29, 30, 37, 1);
+        font-size: 28px;
+        display: flex;
+        max-width: 740px;
+        font-family: 'Inter';
+        z-index: 2;
+        flex-wrap: nowrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+
+    
+.TextContent__Discription {
+
+    margin-top: 40px;
+    display: flex;
+    max-height: 514px;
+    align-items: flex-start;
+    justify-content: center;
+   
+
+
+}
+
+
+
+
+.TextContent__Input{
+
+    max-width: 471px;
+    height: 56px;
+    display: flex;
+    margin-top: 69px;
+    align-items: center;
+    margin-left: 0px;
+    transition: 1s ease;
+    opacity: 1;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+}
+
+
+
+
+
+
+.Graphic_1000{
+
+        width: 400px;
+        height: 400px;
+        border-radius: 8px;
+    
+}
+
+
+    
+.Graphic2_1000{
+        
+    position: absolute;
+    height: 240px;
+    width: 240px;
+   
+    
+    top: 56px;
+    margin-left: 240px;
+    
+}
+
+.Sales_1000{
+
+     width: 400px;
+        height: 200px;
+        margin-bottom: 100px;
+        position: absolute;
+        bottom: -200px;
+}
+
+
+
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+    
+    .TextContent {
+        width: 100%;
+        height: 100%;
+        padding-top: 87px;
+        padding-left: 20px;
+        padding-bottom: 141px;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        transition: 1s ease;
+        opacity: 1;
+        order: 2;
+        
+    
+    }
+  }
