@@ -14,8 +14,8 @@ const SecondSection = () => {
 return(
     <div className={cl.SecondSection__Container}>
 
-    Xui
 
+        2
 
 
 
