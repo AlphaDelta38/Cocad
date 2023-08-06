@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cocad/static/css/main.d49d44eb.css",
+    "main.js": "/Cocad/static/js/main.8ad8f177.js",
+    "static/media/Inter-Bold.ttf": "/Cocad/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Medium.ttf": "/Cocad/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "index.html": "/Cocad/index.html",
+    "main.d49d44eb.css.map": "/Cocad/static/css/main.d49d44eb.css.map",
+    "main.8ad8f177.js.map": "/Cocad/static/js/main.8ad8f177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d49d44eb.css",
+    "static/js/main.8ad8f177.js"
+  ]
+}
